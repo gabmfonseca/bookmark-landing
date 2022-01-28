@@ -26,7 +26,6 @@ export default {
   },
   computed: {
     getColor() {
-      console.log('blue', this.blue, 'primary', this.primary);
       return this.color === 'blue'
         ? this.primary
           ? 'primary_blue white--text'

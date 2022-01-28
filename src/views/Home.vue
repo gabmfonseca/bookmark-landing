@@ -42,7 +42,6 @@ export default {
       this.page = this.entries.find(
         (entry) => entry.fields.name === 'Homepage',
       ).fields;
-      console.log('page', this.page);
     },
   },
   computed: {
